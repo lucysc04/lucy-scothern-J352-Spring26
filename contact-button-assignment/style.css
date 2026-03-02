@@ -1,0 +1,43 @@
+/*
+MY COLOR PALETTE
+Medium Slate Blue - #826AED
+Mauve Magic - #C879FF
+Mauve - #FFB7FF
+Cyan Glow - #3BF4FB
+Lime Cream - #CAFF8A
+*/
+
+body {
+    background-color: #ffb7ff;
+    text-align: center;
+}
+
+button {
+    background-color: #826aed;
+    color: #caff8a;
+    font-family: "Roboto Mono", monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    width: 200px;
+    padding: 10px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #c879ff;
+}
+
+h1 {
+    font-family: "Roboto Mono", monospace;
+}
+h2 {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+}
+
+button {
+}
