@@ -51,7 +51,7 @@
     }
 
     .topper-left {
-        text-align: center;
+        text-align: right;
         margin-bottom: 30px;
     }
 
@@ -67,9 +67,9 @@
        max-width: 420px;
        border: 5px solid #9a55ff;
        border-radius: 130px 0 130px 0;
-       display: block;
-       margin-left: auto;
-       margin-right: 0;
+       display: inline-block;
+       position: relative;
+       left: 500px;
     }
     
 
@@ -158,6 +158,11 @@
     /* EXPERIENCE */
     .icon-row {
         margin-bottom: 20px;
+    }
+    .icon-row .col-md-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .experience-image {
