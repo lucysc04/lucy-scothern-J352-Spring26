@@ -1,22 +1,327 @@
 /*Color palette
- * White - #ffffff
- * Pink - #f45999
- * Light green - #abbbba
- * Cream - #f1ebe3
-h! {
-    font-family: "Host Grotesk", sans-serif;
-    letter-spacing: -0.7px;
-    font-weight: bolf;
-    text-ytasnform: uppercase;
+*Pink: #f45999
+*Blue-gray: #abbbba
+*Cream: #f1ebe3
+*White: #ffffff
+**/
+
+/* Default styles */
+@media screen {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        margin: 0;
+        background-color: #f1ebe3;
+        color: #ffffff;
+        font-family: "AR Pcrystal Mincho JIS", "Times New Roman", serif;
+    }
+
+    /* NAVIGATION */
+    #navigation {
+        background-color: #abbbba;
+        padding: 18px 20px;
+    }
+
+    .nav-pill {
+        background-color: #f1ebe3;
+        border-radius: 40px;
+        text-align: center;
+        padding: 16px 10px;
+        margin: 10px 0;
+        font-family: "League Spartan", sans-serif;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+
+    .nav-pill a {
+        color: #f45999;
+        text-decoration: none;
+    }
+
+    .nav-pill a:hover {
+        text-decoration: underline;
+    }
+
+    /* TOPPER */
+    #topper {
+        background-color: #f1ebe3;
+        padding: 40px 30px 60px 30px;
+    }
+
+    .topper-left {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .monogram {
+        font-family: "AR Pcrystal Mincho JIS", "Times New Roman", serif;
+        color: #f45999;
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+
+    #headshot {
+        width: 100%;
+        max-width: 420px;
+        border: 5px solid #9a55ff;
+        border-radius: 130px 0 130px 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .topper-right {
+        text-align: center;
+    }
+
+    h1 {
+        font-family: "League Spartan", sans-serif;
+        font-size: 72px;
+        line-height: 0.92;
+        font-weight: 800;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+
+    .lastname {
+        display: inline-block;
+    }
+
+    h2 {
+        font-family: "AR Pcrystal Mincho JIS", "Times New Roman", serif;
+        font-size: 34px;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 35px;
+    }
+
+    button {
+        background-color: #abbbba;
+        color: #f45999;
+        border: 2px solid #f45999;
+        border-radius: 999px;
+        padding: 16px 40px;
+        font-size: 18px;
+        font-family: "League Spartan", sans-serif;
+        min-width: 220px;
+    }
+
+    button:hover {
+        background-color: #ffffff;
+    }
+
+    /* SECTIONS */
+    .section-pink {
+        background-color: #f45999;
+        padding: 60px 25px;
+    }
+
+    .section-cream {
+        background-color: #f1ebe3;
+        padding: 60px 25px;
+    }
+
+    .section-title-box {
+        background-color: #f1ebe3;
+        width: fit-content;
+        padding: 10px 35px;
+        margin: 0 auto 40px auto;
+    }
+
+    .skills-title-box {
+        background-color: #abbbba;
+    }
+
+    h3 {
+        font-family: "League Spartan", sans-serif;
+        font-size: 72px;
+        line-height: 1;
+        margin: 0;
+    }
+
+    #experience {
+        color: #abbbba;
+    }
+
+    #skills {
+        color: #f45999;
+    }
+
+    #education {
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+
+    /* EXPERIENCE */
+    .icon-row {
+        margin-bottom: 20px;
+    }
+
+    .experience-image {
+        width: 220px;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 40px;
+        margin-bottom: 25px;
+    }
+
+    .cards-row {
+        margin-top: 10px;
+    }
+
+    .experience-card {
+        background-color: #abbbba;
+        padding: 25px;
+        margin-bottom: 25px;
+        min-height: 100%;
+        text-align: center;
+    }
+
+    .experience-card h4 {
+        font-family: "AR Pcrystal Mincho JIS", "Times New Roman", serif;
+        font-size: 28px;
+        color: #ffffff;
+        margin-bottom: 12px;
+    }
+
+    .experience-card h5,
+    .experience-card h6,
+    .experience-card p {
+        color: #ffffff;
+    }
+
+    .experience-card h5 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .experience-card h6 {
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+
+    .experience-card p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 0;
+    }
+
+    /* SKILLS */
+    .skills-row {
+        margin-bottom: 22px;
+    }
+
+    .skill-pill {
+        border: 2px solid #f45999;
+        border-radius: 999px;
+        color: #f45999;
+        background-color: transparent;
+        padding: 22px 18px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.25;
+        margin-bottom: 20px;
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* EDUCATION */
+    .education-section {
+        min-height: 500px;
+    }
+
+    .education-text h4 {
+        font-family: "AR Pcrystal Mincho JIS", "Times New Roman", serif;
+        font-size: 28px;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+
+    .education-text p {
+        font-size: 18px;
+        line-height: 1.5;
+        max-width: 500px;
+        color: #ffffff;
+    }
+
+    #education-image {
+        width: 100%;
+        max-width: 320px;
+        border: 5px solid #9a55ff;
+        border-radius: 60px 0 60px 0;
+        background-color: #ffffff;
+        margin-top: 30px;
+    }
 }
-Color palette
 
-#topper {
-backg
+/* Small screens and up */
+@media (min-width: 576px) {
+    h1 {
+        font-size: 90px;
+    }
+
+    h3 {
+        font-size: 82px;
+    }
+
+    .nav-pill {
+        font-size: 32px;
+    }
 }
 
-#headshot{
-width: 100%;
+/* Medium screens and up */
+@media (min-width: 768px) {
+    #topper {
+        padding: 55px 45px 70px 45px;
+    }
 
-h1{ font-familty }
+    h1 {
+        font-size: 110px;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    .topper-right {
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .topper-left {
+        margin-bottom: 0;
+    }
+
+    .monogram {
+        text-align: left;
+        font-size: 70px;
+    }
+
+    h3 {
+        font-size: 96px;
+    }
+}
+
+/* Large screens and up */
+@media (min-width: 992px) {
+    h1 {
+        font-size: 125px;
+    }
+
+    #topper {
+        min-height: 620px;
+        display: flex;
+        align-items: center;
+    }
+
+    .experience-card {
+        min-height: 320px;
+    }
+
+    .education-text {
+        padding-left: 35px;
+    }
 }

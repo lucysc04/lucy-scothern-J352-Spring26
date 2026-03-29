@@ -5,36 +5,173 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <title>Lucy Scothern's Portfolio</title>
-
-          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-       
-       <link rel= "preconnect" href="https://fonts.googleapis.com/css?family=League Spartan">
-<link rel= "https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Mono:ital,wght@1,300&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-
+       <!-- Bootstrap -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
+       <!--This is my Google font -->
+         <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+       <link
+            href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;800&display=swap"
+            rel="stylesheet" />
+       <!-- External CSS-->
+       <link href="style.css" rel="stylesheet"/>
+    </head>
+    
     <body>
-     <div class= "container-fluid" id= topper>
-        <div class="col-8"></div>
-         <h1>Lucy Scothern</h1>
-         <h2> Student Journalist</h2>
-          <button>Contact me</button>
+        <!--NAVIGATION-->
+     <div class= "container-fluid" id= "navigation">
+        <div class="row">
+            <div class="col-md-4">
+                <p class="nav-pill"><a href="#experience">Experience</a></p>
+                </div>
+            <div class="col-md-4">
+                <p class="nav-pill"><a href="#skills">Skills</a></p></div>
+            <div class="col-md-4">
+                <p class="nav-pill"><a href="#education">Education</a></p></div>
+            </div>
+         </div>
+        <!--TOPPER-->
+        <div class="container-fluid" id="topper">
+             <div class="row align-items-center">
+                 <div class="col-lg-6 topper-left">
+                     <p class="monogram">LS</p>
+                     <img
+                          src="IMG_4887.jpeg"
+                          id="headshot"
+                          alt="Lucy Scothern headshot"/>
+                 </div>
+                 <h1>Lucy<br /><span class="lastname">Scothern</span></h1>
+                 <h2> Student Journalist</h2>
+                 <a href="mailto:lucysc@terpmail.umd.edu" class="contact-link">
+                        <button>Contact me</button>
+                    </a>
+                </div>
+            </div>
+        <!--EXPERIENCE-->
+        <div class="container-fluid section-pink" id="experience-section">
+        <div class="row">
+            <div class="col">
+            <div class="section-title-box">
+                <h3 id="experience">Experience:</h3>
+                </div>
+            </div>
+            </div>
+        <div class="row icon-row">
+            <div class="col-md-6 text-center">
+            <img
+                 src="Football_Pallo_valmiina-cropped.jpg"
+                 class="experience-image"
+                 alt="Soccer ball for work experience" />
+                 </div>
+            <div class="col-md-6 text-center">
+            <img
+                 src="concentrated-colleagues-sitting-office-coworking.jpg">
+                class="experience-image"
+                alt="laptop for digital editorial work"/>
+            </div>
+            </div>
+            
+            <div class="row cards-row">
+            <div class"col-lg-6">
+                <div class="experience-card">
+                <h4>Sports Editorial Intern:</h4>
+                <h5>Sunderland Echo/ Sheilds Gazette</h5>
+                <h6>Jan. 2026- Feb. 2026</h6>
+                <p>
+                    Wrote 4-8 articles a week covering Premier League and
+                            EFL fixtures incorporating statistics, xG analysis, as
+                            well as personal football knowledge to bring tactical
+                            insight. Delivered accurate, engaging sports content
+                            under tight 24-hour turnaround deadlines.
+                    </p>
+                </div>
+                </div>
+                
+                <div class="col-lg-6">
+                <div class="experience-card">
+                    <h4>Editorial and Digital Intern:</h4>
+                        <h5>“Listen In With KNN” Fox Sports Radio, 96.6FM / 1340AM</h5>
+                        <h6>Jun. 2025 - Jul. 2025</h6>
+                        <p>
+                            Wrote and published articles for the Listen In With KNN
+                            website, covering radio show summaries, local sports
+                            events, and professional sports press conferences. Used
+                            WordPress to format articles, insert links and images,
+                            and ensure content was ready for online publication.
+                            Uploaded finalized articles onto the Fox 5 News website
+                            while working fully remote.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-5">
-            <img src= "IMG_4887.jpeg" id=headshot/>
+        <!--SKILLS-->
+        <div class="container-fluid section-cream" id="skills-section">
+            <div class= "row">
+                <div class="col">
+                    <div class="section-title-box skills-title-box">
+                    <h3 id="skills">Skills:</h3>
+                    </div>
+                </div>
+            </div>
+            
+    <div class= "row skills-row">
+        <div class= "col-md-4">
+            <div class="skill-pill"> Sports reporting and analysis</div>
         </div>
+        <div class="col-md-4">
+            <div class="skill-pill"> Story design and digital presentation</div>
         </div>
-</div>
-<div class="container-fluid">
-    <div class= "row">
-        <div class="col"> <h3>Experience</h3></div>
-    </div>
-    <div class= "row">
-    <div class= "col-sm-3">
-        <h4>Sports Editorial Intern</h4>
-        <h5>Sunderland Echo/ Shields Gazette</h5>
-        <h6>Jan. 2026- Feb. 2026</h6>
+        <div class="col-md-4">
+                    <div class="skill-pill">
+                        Statistical and data-driven storytelling (xG, performance metrics)
+                    </div>
+                </div>
+            </div>
+            <div class="row skills-row">
+                <div class="col-md-4">
+                    <div class="skill-pill">Newsletter creation and audience engagement</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-pill">Website management (WordPress)</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-pill">Social media strategy and content creation</div>
+                </div>
+            </div>
 
-</div>
-       
+            <div class="row skills-row">
+                <div class="col-md-4">
+                    <div class="skill-pill">Search / SEO fundamentals</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-pill">Analytics-informed content decisions</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-pill">Deadline-driven writing and editing</div>
+                </div>
+            </div>
+        </div>
+        <!--EDUCATION-->
+        <div class="container-fluid section-pink education-section" id="education-section">
+            <div class="row align-items-center">
+            <div class="col-lg-6 education-text">
+                <h3 id="education">Education:</h3>
+                <h4>University of Maryland</h4>
+                <p>
+                    Current Journalism undergraduate student at Phillip Merrill College, University of Maryland.
+                </p>
+                <p>Graduation date: May 2027</p>
+                </div>
+            <div class="col-lg-6 text-center">
+                <img
+                     src="istockphoto-2183693090-1024x1024.jpg"
+                     id="education-image"
+                     alt="UMD Picture"/>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
+       
