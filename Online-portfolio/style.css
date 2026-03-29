@@ -62,14 +62,16 @@
         margin-bottom: 10px;
     }
 
-    #headshot {
-        width: 100%;
-        max-width: 420px;
-        border: 5px solid #9a55ff;
-        border-radius: 130px 0 130px 0;
-        display: block;
-        margin: 0 auto;
+   #headshot {
+       width: 100%;
+       max-width: 420px;
+       border: 5px solid #9a55ff;
+       border-radius: 130px 0 130px 0;
+       display: block;
+       margin-left: auto;
+       margin-right: 0;
     }
+    
 
     .topper-right {
         text-align: center;
@@ -80,7 +82,7 @@
         font-size: 72px;
         line-height: 0.92;
         font-weight: 800;
-        color: #ffffff;
+        color: #f45999;
         margin-bottom: 20px;
     }
 
@@ -91,7 +93,7 @@
     h2 {
         font-family: "AR Pcrystal Mincho JIS", "Times New Roman", serif;
         font-size: 34px;
-        color: #ffffff;
+        color: #f45999;
         text-transform: uppercase;
         margin-bottom: 35px;
     }
@@ -325,3 +327,6 @@
         padding-left: 35px;
     }
 }
+
+
+
