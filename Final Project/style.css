@@ -1,0 +1,447 @@
+/*
+Colors:
+Pink: #fe12d8
+Background: #fafbf3
+Deep red: #9d2030
+Warm yellow: #fcc653
+*/
+
+@media screen {
+    body {
+        background-color: #fafbf3;
+        color: #000;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: "Arial Black", Helvetica, sans-serif;
+        font-weight: 900;
+    }
+
+    .pink {
+        color: #fe12d8;
+    }
+
+    .bold {
+        font-weight: 900;
+    }
+
+    .red {
+        color: #9d2030;
+    }
+
+    .italic {
+        font-style: italic;
+        font-weight: 900;
+    }
+
+    #topper {
+        text-align: center;
+        padding: 30px 15px 45px 15px;
+    }
+
+    #topper h1 {
+        font-size: 48px;
+        line-height: 0.95em;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    #titleimage {
+        width: 90%;
+        border-radius: 35px;
+        display: block;
+        margin: 0 auto 15px auto;
+    }
+
+    #byline {
+        background-color: #fe12d8;
+        color: white;
+        border-radius: 30px;
+        width: 260px;
+        padding: 10px;
+        margin: 10px auto;
+        font-size: 22px;
+    }
+
+    #writer,
+    #date {
+        width: 90%;
+        margin: 5px auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .intro {
+        text-align: center;
+        padding: 60px 15px;
+    }
+
+    .intro h4 {
+        text-transform: uppercase;
+        font-size: 28px;
+        margin-bottom: 70px;
+    }
+
+    .intro h2 {
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 1.2em;
+        margin-bottom: 60px;
+    }
+
+    .intro h3 {
+        font-size: 28px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .story,
+    .ending {
+        padding: 30px 20px;
+    }
+
+    .story p,
+    .ending p {
+        font-size: 30px;
+        line-height: 1.15em;
+        margin-bottom: 35px;
+    }
+
+    .two-column {
+        padding: 30px 25px;
+    }
+
+    .two-column p {
+        font-size: 22px;
+        line-height: 1.3em;
+    }
+
+    .mouse,
+    .photo,
+    .sideimage {
+        margin-top: 25px;
+    }
+
+    .pullquote {
+        color: #fe12d8;
+        font-size: 24px;
+        line-height: 1.25em;
+        text-align: center;
+        font-weight: 700;
+        margin: 35px auto;
+        width: 85%;
+    }
+
+    .section {
+        padding: 40px 25px;
+        text-align: center;
+    }
+
+    .pinkheadline {
+        color: #fe12d8;
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
+
+    .inlineimage {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .section p {
+        font-size: 24px;
+        line-height: 1.25em;
+        text-align: center;
+    }
+
+    .flourish-section {
+        padding: 40px 15px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .survey-section {
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .yellowheadline {
+        color: #fcc653;
+        text-transform: uppercase;
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
+
+    .redbox {
+        background-color: #9d2030;
+        color: #fe12d8;
+        border-radius: 30px;
+        padding: 20px;
+        margin: 25px auto;
+        font-weight: 900;
+    }
+
+    .redbox p {
+        margin: 0;
+        font-size: 22px;
+        line-height: 1.15em;
+    }
+
+    .yellowblock {
+        background-color: #fcc653;
+        border-radius: 30px;
+        padding: 25px;
+        margin: 40px auto;
+        width: 92%;
+    }
+
+    .yellowblock p {
+        font-size: 30px;
+        line-height: 1.25em;
+        margin-bottom: 20px;
+    }
+
+    .people-section {
+        padding: 35px 25px;
+    }
+
+    .banner {
+        background-color: #fe12d8;
+        color: #000;
+        border-radius: 35px;
+        padding: 25px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 28px;
+        line-height: 1.05em;
+        margin-bottom: 35px;
+    }
+
+    .person-card {
+        background-color: #9d2030;
+        color: white;
+        text-align: center;
+        padding: 25px;
+        margin-bottom: 30px;
+    }
+
+    .person-card img {
+        width: 75%;
+        margin-bottom: 20px;
+    }
+
+    .person-card h3 {
+        font-size: 22px;
+        line-height: 1em;
+    }
+
+    .person-card p {
+        font-size: 18px;
+        line-height: 1.15em;
+        font-weight: 700;
+    }
+
+    .body-diagram {
+        padding: 35px 20px;
+    }
+
+    .yellow-card {
+        background-color: #fcc653;
+        color: #9d2030;
+        border-radius: 30px;
+        text-align: center;
+        padding: 25px;
+        margin-bottom: 25px;
+        font-weight: 900;
+    }
+
+    .yellow-card h3 {
+        text-transform: uppercase;
+        font-size: 22px;
+    }
+
+    .yellow-card p {
+        font-size: 19px;
+        line-height: 1.15em;
+    }
+
+    .diagram {
+        margin-top: 20px;
+    }
+
+    .midquote {
+        padding: 120px 20px;
+        text-align: center;
+    }
+
+    .midquote h2 {
+        background-color: #9d2030;
+        color: #fe12d8;
+        border-radius: 35px;
+        padding: 45px 25px;
+        text-transform: uppercase;
+        font-size: 34px;
+        line-height: 1.05em;
+        width: 90%;
+        margin: auto;
+    }
+
+    .finalquote {
+        background-color: #9d2030;
+        color: #fcc653;
+        border-radius: 30px;
+        padding: 30px;
+        text-transform: uppercase;
+        font-size: 40px;
+        line-height: 1em;
+        margin: 40px auto;
+        text-align: center;
+    }
+
+    .credits {
+        background-color: #fe12d8;
+        color: white;
+        padding: 25px;
+        margin-top: 35px;
+        font-style: italic;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .credits p {
+        font-size: 20px;
+        line-height: 1.15em;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 576px) {
+    #topper h1 {
+        font-size: 75px;
+    }
+
+    .story p,
+    .ending p {
+        font-size: 34px;
+    }
+
+    .intro h2 {
+        font-size: 55px;
+    }
+
+    .redbox p {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    #topper h1 {
+        font-size: 95px;
+    }
+
+    .story,
+    .ending {
+        padding: 50px 35px;
+    }
+
+    .two-column {
+        padding: 50px 40px;
+    }
+
+    .person-card {
+        min-height: 620px;
+    }
+
+    .person-card img {
+        width: 75%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .finalquote {
+        font-size: 58px;
+        padding: 35px;
+    }
+
+    .credits p {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 992px) {
+    #topper h1 {
+        font-size: 120px;
+        width: 80%;
+        margin: 0 auto 25px auto;
+    }
+
+    #titleimage {
+        width: 85%;
+    }
+
+    .intro h2 {
+        font-size: 70px;
+    }
+
+    .story p,
+    .ending p {
+        font-size: 40px;
+    }
+
+    .two-column p,
+    .col-md-7 p {
+        font-size: 25px;
+    }
+
+    .pinkheadline {
+        font-size: 42px;
+    }
+
+    .banner {
+        font-size: 36px;
+    }
+
+    .person-card h3 {
+        font-size: 25px;
+    }
+
+    .person-card p {
+        font-size: 22px;
+    }
+
+    .yellowblock p {
+        font-size: 36px;
+    }
+
+    .finalquote {
+        font-size: 70px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #topper h1 {
+        font-size: 140px;
+    }
+
+    .intro h2 {
+        font-size: 85px;
+    }
+
+    .story p,
+    .ending p {
+        font-size: 42px;
+    }
+
+    .finalquote {
+        font-size: 78px;
+    }
+}
